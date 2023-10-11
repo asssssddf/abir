@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button{
+    padding-left: 0;
+}
+.contentIcon i{
+    color:#ffc451 ;
+    font-size: 30px;
+}
+.contentIcon{
+    width: 10%;
+    float: left;
+}
+.textContent{
+    width: 90%;
+    float: left;
+}
+.services .icon :hover{
+    border-color: #fff;
+    box-shadow: 0px 0px 25px 0px rgba(177, 171, 171, 0.562);
+    
+}
+.services .icon{
+    border: 1px solid red;
+    padding: 50px 20px;
+    background-color: #fff;
+    transition: all ease-in-out 0.3s;
+}
+.countIcon i{
+    color: #ffc451;
+    font-size: 48px;
+}
+.countIcon{
+    width: 10%;
+    float: left;
+}
+.countText{
+    width: 90%;
+    float: left;
+}
+.addressIcon{
+    width: 10%;
+    float: left;
+}
+.adddressText{
+    width: 90%;
+    float: left;
+}
+.iconBox{
+    border: 2px solid #ffc451;
+    text-align: center;
+    padding:30px;
+    transition: 0.3s ease-in-out;
+}
+.iconBox i{
+    color: #ffc451;
+    font-size: 48px;
+}
+.iconBox p{
+    font-size: 25px;
+}
+.iconBox :hover{
+    color: #ffc451;
+    transition: 0.3s ease-in-out;
+}
+.iconBoxText{
+    color: white;
+}
+.aboutIcon{
+    width: 5%;
+    float: left;
+}
+.protfolioUl :hover{
+    background-color: #ffc451;
+    transition: 0.3s ease-in-out;
+
+}
+.aboutText{
+    width: 95%;
+    float: left;
+}
+.imageArea{
+    position: relative;
+}
+.imageArea .textArea{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   color: white;
+    width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, 0.356);
+}
+
+@media (max-width:575px){
+    .client{
+        text-align: center;
+    }
+}
